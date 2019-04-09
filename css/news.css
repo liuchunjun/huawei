@@ -57,6 +57,7 @@ section {
       section .wrap .newsList .news_item span {
         display: block;
         color: #787878;
-        padding-top: .08rem; }
+        padding-top: .08rem;
+        font-size: .12rem; }
 
 /*# sourceMappingURL=news.css.map */

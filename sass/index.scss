@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+
+.on{
+  height: 680px;
+  margin-top: .63rem;
+}
+.up{
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  border-bottom-color: #000;
+}
+.down{
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  border-top-color: #000;
+}
+section{
+  position: relative;
+  display: -o-flex;
+  display: -moz-flex;
+  display: -webkit-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .wrap{
+    width: 100%;
+    .se{
+      height: 5.58em;
+      margin-bottom: .1rem;
+      a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        .pro_title{
+          text-align: center;
+          padding-top: .67rem;
+          h2{
+            font-size: .3rem;
+          }
+          p{
+            margin-top: 10px;
+            font-size: .16rem;
+          }
+        }
+      }
+    }
+    .se_p30{
+      background: url("../img/banner.jpg") no-repeat;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    .mateX{
+      background: url("../img/mateX.jpg") no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    .mate20{
+      height: 7.2em;
+      background: url("../img/mate20.jpg") no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    .mate20x{
+      background: url("../img/mate20x.jpg") no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    .nova4{
+      background: url("../img/nova4.jpg") no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    .mate20rs{
+      background: url("../img/mate20rs.jpg") no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    .nova4e{
+      background: url("../img/nova4e.jpg") no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    .watch2{
+      background: url("../img/watch2.jpg") no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    .matebook13{
+      background: url("../img/matebook13.jpg") no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    .m5{
+      background: url("../img/m5.jpg") no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    .fiveG{
+      background: url("../img/5G.jpg") no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    .shenghuo{
+      background: url("../img/shenghuo.jpg") no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    .clone{
+      background: url("../img/clone.jpg") no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+  }
+
+
+}
+

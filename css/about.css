@@ -1,0 +1,128 @@
+.on {
+  top: 0.64rem !important;
+  height: 6.46rem; }
+
+section {
+  font-size: .16rem;
+  position: relative;
+  width: 100%; }
+  section .wrap .about-us {
+    padding: 0 .25rem;
+    background: #f7f7f7;
+    border-bottom: 1px solid #f7f7f7;
+    margin-bottom: .04rem; }
+    section .wrap .about-us h2 {
+      padding: .5rem 0 .3rem;
+      text-align: center; }
+  section .wrap .about_pic {
+    height: 5.62rem;
+    background: url("../img/about_banner.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center; }
+    section .wrap .about_pic h1 {
+      font-size: .4rem;
+      color: #fff;
+      padding: 2.42rem 0 .65rem; }
+    section .wrap .about_pic a {
+      display: block;
+      margin: 0 auto;
+      width: 1.53rem;
+      height: .31rem;
+      color: #fff;
+      line-height: .31rem;
+      border: 1px solid white;
+      -webkit-border-radius: .15rem;
+      -moz-border-radius: .15rem;
+      border-radius: .15rem; }
+      section .wrap .about_pic a i {
+        display: inline-block;
+        width: .13rem;
+        height: .16rem;
+        margin-left: .17rem;
+        background: url("../img/about_arrow.png") no-repeat;
+        -webkit-background-size: .13rem .16rem;
+        background-size: .13rem .16rem; }
+  section .wrap .about-us_overview {
+    background: #f2f3ea; }
+    section .wrap .about-us_overview p {
+      padding-bottom: .7rem; }
+    section .wrap .about-us_overview img {
+      width: 100%; }
+  section .wrap .about-us_customer {
+    padding-bottom: .4rem; }
+  section .wrap .about-us_big-event .event_item {
+    margin-bottom: .04rem;
+    border-top: 1px solid #c1c2c2; }
+    section .wrap .about-us_big-event .event_item dt {
+      font-size: .52rem;
+      height: .91rem;
+      line-height: .91rem; }
+    section .wrap .about-us_big-event .event_item dd {
+      font-size: .16rem;
+      line-height: .3rem;
+      text-indent: .18rem;
+      list-style-position: inside;
+      background: url("../img/dot.png") no-repeat 0 0.15rem;
+      -webkit-background-size: .05rem .05rem;
+      background-size: .05rem .05rem;
+      margin-bottom: .3rem; }
+  section .wrap .about-us_big-event .watch_more {
+    width: 3.3rem;
+    text-align: center;
+    background: #e0e0e0;
+    -webkit-border-radius: .1rem;
+    -moz-border-radius: .1rem;
+    border-radius: .1rem;
+    margin: 0 auto;
+    padding-bottom: .07rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    section .wrap .about-us_big-event .watch_more span {
+      display: block;
+      padding: .1rem 0; }
+    section .wrap .about-us_big-event .watch_more img {
+      margin: 0 auto;
+      width: .17rem;
+      height: .08rem; }
+  section .wrap .join-us {
+    height: 2.23rem;
+    overflow: hidden;
+    margin-bottom: .04rem;
+    border: 1px solid #f1f6f7;
+    background: url("../img/img-feature4-mob.jpg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover; }
+    section .wrap .join-us a {
+      display: block;
+      margin: .88rem auto 0;
+      width: .96rem;
+      height: .22rem;
+      line-height: .22rem;
+      color: #fff;
+      text-align: center;
+      -webkit-border-radius: .04rem;
+      -moz-border-radius: .04rem;
+      border-radius: .04rem;
+      background: #242728; }
+  section .wrap .hot {
+    height: 2.23rem;
+    overflow: hidden;
+    background: url("../img/img-feature5-mob.jpg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover; }
+    section .wrap .hot a {
+      display: block;
+      margin: .88rem auto 0;
+      width: .96rem;
+      height: .22rem;
+      line-height: .22rem;
+      color: #fff;
+      text-align: center;
+      -webkit-border-radius: .04rem;
+      -moz-border-radius: .04rem;
+      border-radius: .04rem;
+      background: #242728; }
+
+/*# sourceMappingURL=about.css.map */

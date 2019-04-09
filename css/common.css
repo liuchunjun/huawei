@@ -244,7 +244,7 @@ section .hide_box {
       margin-right: .08rem;
       vertical-align: middle; }
     .footer .footer_cnt .ft_bottom p {
-      margin: .1rem 0 .22rem;
+      padding: .1rem 0 .22rem;
       color: #383838; }
 
 /*# sourceMappingURL=common.css.map */
