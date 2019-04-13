@@ -114,7 +114,7 @@ section .hide_box {
         color: #cfcfcf; }
     section .hide_box .hideCnt01 .search {
       margin-top: .14rem;
-      padding-bottom: .05rem;
+      padding-bottom: 1rem;
       border-bottom: 1px solid #6f6f6f;
       display: -o-flex;
       display: -moz-flex;
@@ -159,6 +159,11 @@ section .hide_box {
       padding: 0 .09rem 0 .16rem; }
     section .hide_box .consumer_web i {
       display: inline-block; }
+  section .hide_box .search_cnt {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: pink; }
 
 .footer {
   background: #f9f9f9; }

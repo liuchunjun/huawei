@@ -13,9 +13,7 @@ header{
   background-size: cover;
 }
 .hide{
-  background: url("../img/hide.png") no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
+  background: url("../img/hide.png") no-repeat center;
 }
 section{
   position: relative;
@@ -78,11 +76,11 @@ section{
       border-bottom: 1px solid #e3e3e3;
       .item_menu{
         display: flex;
-        height: .64rem;
+        height: .56rem;
         justify-content: space-between;
         align-items: center;
         h1{
-          font-size: .2rem;
+          font-size: .18rem;
           font-weight: normal;
         }
         i{
@@ -93,7 +91,67 @@ section{
       .hide_p{
         display: none;
         .hide_tit{
-          padding: .2rem 0 .41rem;
+          font-size: .14rem;
+          padding-bottom: .15rem;
+        }
+
+        ul{
+          display: flex;
+          flex-wrap: wrap;
+          font-size: .14rem;
+          li{
+            width: 50%;
+            margin: .15rem 0 .3rem;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            text-align: center;
+            a{
+              color: #6f6f6f;
+            }
+            img{
+              display: block;
+              width:.67rem;
+              height: .85rem;
+              margin: 0 auto;
+            }
+          }
+        }
+        .resolve{
+          li{
+            width: 100%;
+            text-align: left;
+            margin: 0;
+            border-bottom: 1px solid #e4e5e5;
+            padding: .1rem 0;
+          }
+        }
+
+        .check{
+          padding-top: .2rem;
+          text-align: center;
+          a{
+            color: #5597fc;
+            text-decoration: underline;
+          }
+        }
+        h6{
+          text-align: center;
+          max-width:2.6rem;
+          font-size: .2rem;
+          text-indent: .02rem;
+          margin: .31rem auto .13rem;
+        }
+
+        p{
+          max-width:2.6rem;
+          line-height: .25rem;
+          font-size: .12rem;
+          margin: 0 auto;
+          a{
+          color: #5597fc;
+          text-decoration: underline;
+        }
         }
       }
     }

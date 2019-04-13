@@ -1,5 +1,6 @@
 $(function () {
     $('.menu').click(function () {
+        $('.search_cnt').css('display','none');
         $('.footer').toggle();
         if($('section').attr('class')!=='on'){
             $('section').addClass('on');
@@ -11,9 +12,12 @@ $(function () {
             $('header').removeClass('fixed');
             $('.consumer_web').removeClass('fixed');
         }
+
         $('.hide_box').slideToggle('slow');
         $('.wrap').slideToggle('slow')
     })
+
+
     $('.consumer_web').click(function () {
         $('.hideCnt01').toggle();
         $('.hideCnt02').toggle()

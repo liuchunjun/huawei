@@ -14,9 +14,9 @@
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="D:/Program Files/Ruby21-x64/bin/sass" />
+      <option name="program" value="sass" />
       <option name="runOnExternalChanges" value="true" />
-      <option name="scopeName" value="项目文件" />
+      <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$FileDir$" />
       <envs />
